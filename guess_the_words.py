@@ -1,3 +1,4 @@
+'Угадайка слов "Виселица"'
 from random import *
 
 word_list = ['КЛЮЧ', 'КНИГА', 'ЕНОТ', 'МАШИНКА', 'КОРОВА', 'ТЕЛЕЖКА', 'ШЛЕМ', 'КНОПКА', 'ШНУР', 'ЧЕРНЫЙ',
@@ -98,7 +99,6 @@ def display_hangman(tries):
 
 
 def play(word):
-    print(word)
     word_completion = "_" * len(word)  # строка, содержащая символы _ на каждую букву задуманного слова
     word_completion_list = list(word_completion)
     guessed_words = []  # список уже названных слов
